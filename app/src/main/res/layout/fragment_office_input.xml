@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.OfficeInput">
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="@string/address" />
+
+    <EditText
+        android:id="@+id/etSqFt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="@string/sqft" />
+
+    <EditText
+        android:id="@+id/etOwner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="@string/owner" />
+
+    <EditText
+        android:id="@+id/etPurpose"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="@string/purpose" />
+
+</FrameLayout>
